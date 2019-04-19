@@ -9,59 +9,64 @@
 <body>
     <form action="/">
         <p>
-        <label>
-            Phone:
-            <input name="phone" type="number" value="phone" required>
-        </label>
-        </p>
-        <p>
-        <label>
-            E-mail:
-            <input  name="userEmail"type="email"  required>
-        </label>
-        </p>
-        <p>
-        <label>
-            Password:
-            <input name="userPassword" type="password"  required>
-        </label>
-        </p>
-        <p>
-        <label>
-            Confirm Password:
-            <input name="confirmPassword" type="password"  required>
-        </label>
-        </p>
-        <p>
-        <label >
-            Nickname:
-            <input name="nick" type="text"  required>
-        </label>
-        </p>
-        <p>
-            <label >
-                Habitual Residence:
-                <select name="City">
-                     <option >Tbilisi</option>
-                     <option >Batumi</option>
-                     <option >Qutaisi</option>
-                </select>
-
+            <label>
+                Name
+                <input type="text" name="name" required>
             </label>
         </p>
         <p>
-        <label>
-            Website:
-            <input name="URL" type="url" placeholder="website">
-        </label>
+            <label>
+                Email
+                <input type="email" name="email"required>
+            </label>
+        </p> 
+        <p>
+            <label>
+                Password
+                <input type="password" name="password"required>
+            </label>
+        </p>  
+        <p>
+            <label>
+                Number
+                <input type="number" name="number"required>
+            </label>
         </p>
         <p>
-        <label>
-            <p><input name="agree" type="checkbox" value="agree">
-                I have read the <a href="https://www.google.com/">agreement</a>
-            </p>
+            <label>
+                Date
+                <input type="date" name="date"required>
+            </label>
         </p>
-        <input type="submit" value="Register">
+        <p>
+            <label>
+                Time
+                <input type="time" name="time"required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Color
+                <input type='color' name="chooseColor"required >
+            </label>
+        </p>
+        <p>
+            <label>
+                Range
+                <input type="range"required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Description
+                <p>
+                    <textarea name="description"  cols="30" rows="10" required></textarea>
+                </p>
+            </label>
+        </p>
+        <input type="submit" name="submitButton" value="Submit"> 
+        <input type="reset" name="resetButton" value="Clear">           
+    
     </form>
     
 </body>
