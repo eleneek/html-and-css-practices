@@ -8,65 +8,57 @@
 </head>
 <body>
     <form action="/">
+        <h1>Sign In</h1>
         <p>
             <label>
-                Name
-                <input type="text" name="name" required>
+                Full Name:
+                <p>
+                    <input type="text" name="name" required placeholder="Enter full name">
+                </p>
             </label>
         </p>
         <p>
             <label>
-                Email
-                <input type="email" name="email"required>
+                Email address:
+                <p>
+                    <input type="email" name="email"required placeholder="Emter email">
+                </p>
             </label>
         </p> 
         <p>
             <label>
-                Password
-                <input type="password" name="password"required>
-            </label>
-        </p>  
-        <p>
-            <label>
-                Number
-                <input type="number" name="number"required>
-            </label>
-        </p>
-        <p>
-            <label>
-                Date
-                <input type="date" name="date"required>
-            </label>
-        </p>
-        <p>
-            <label>
-                Time
-                <input type="time" name="time"required>
-            </label>
-        </p>
-        <p>
-            <label>
-                Color
-                <input type='color' name="chooseColor"required >
-            </label>
-        </p>
-        <p>
-            <label>
-                Range
-                <input type="range"required>
-            </label>
-        </p>
-        <p>
-            <label>
-                Description
+                Communication
                 <p>
-                    <textarea name="description"  cols="30" rows="10" required></textarea>
+                    <p>
+                            <input type="checkbox"  name="ChooseCommunication" id="communicate" >
+                            Email
+                    </p>
+                    <p>
+                            <input type="checkbox" name="ChooseCommunication" id="communicate" >
+                            SMS
+                    </p>
+                    <p>
+                            <input type="checkbox" name="ChooseCommunication" id="communicate" >
+                            Phone
+                    </p>
                 </p>
             </label>
         </p>
-        <input type="submit" name="submitButton" value="Submit"> 
-        <input type="reset" name="resetButton" value="Clear">           
-    
+        <p>
+            <label>
+                User Group:
+                <p>
+                    <input type="radio" name="group"> Sales Person
+                </p>
+                <p>
+                    <input type="radio" name="group"> Customer
+                </p>
+                <p>Please select user group</p>
+            </label>
+        </p>
+        <input type="submit" value="Submit" name="submitButton">
+        <input type="reset" value="Cancel" name="resetButton">
+
     </form>
     
 </body>
