@@ -1,0 +1,25 @@
+body{
+    background-color: darkcyan;
+}
+
+ header h1{
+    font-family: fantasy;
+}
+header h2{
+    font-family: cursive;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+a{
+    color: black;
+    font-family: cursive
+}
+a:hover{
+    color: aliceblue
+}
