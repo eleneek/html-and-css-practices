@@ -1,0 +1,45 @@
+.main{
+    display: inline-block;
+}
+.contain img{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 0px;
+}
+
+.row  img, .row span{
+    display: inline-block;
+    vertical-align: middle
+}
+
+a{
+    display:block;
+    padding-top: 10px;
+    color: gray;
+    text-decoration: none;
+}
+.contain{
+    display: inline-block;
+    border: 1px rgba(128, 128, 128, 0.5) solid;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.roundImage{
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.imgMargin{
+    padding-left: 140px;
+}
+
+.icons{
+    padding-top: 15px;
+    padding-right: 51px;
+    display: inline-block;
+}
+.imageText{
+    display: inline-block;
+}
+
