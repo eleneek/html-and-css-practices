@@ -1,29 +1,8 @@
-.main{
-    height: 30px;
+.small{
+    height: 40px;
     width: 60px;
-    border-radius: 4px;
 }
-
-.primary{
-    background-color: cornflowerblue;
-    color: white;
-    border-color: cornflowerblue;
-}
-
-.default{
-    background-color: white;
-    border-color: grey;
-}
-
-.dashed{
-    background-color: transparent;
-    border-color: grey;
-    border-style: dashed;
-
-}
-
-.danger{
-    background-color: rgba(128, 128, 128, 0.192);
-    color: red;
-    border-color: rgba(128, 128, 128, 0.349);
+.large{
+    height: 80px;
+    width: 120px;
 }
