@@ -1,0 +1,19 @@
+ div img{
+    width: 200px;
+    height: 300px;
+}
+.article{
+    display: inline-block;
+    border: 1px gray solid;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+div p{
+    padding-left: 40px;
+}
+
+div a{
+    padding-left: 40px;
+    color: gray;
+    text-decoration: none;
+}
