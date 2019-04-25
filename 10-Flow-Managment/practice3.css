@@ -1,0 +1,403 @@
+body{
+    background-color: black;
+}
+.main{
+    width: 600px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    clear: both;
+}
+.cell{
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.col-1{
+    width: 60px;
+    height: 30px;
+    margin-bottom: 0;
+    background:white;
+    padding-top: 30px;
+}
+.col-2{
+    width: 90px;
+    height: 30px;
+    background:yellow;
+    margin-bottom: 0;
+    padding-top: 30px; 
+}
+.col-3{
+    width: 70px;
+    height: 30px;
+    background: yellow;
+}
+.col-4{
+    background: white;
+    height: 30px;
+    width: 200px;
+}
+.col-5{
+    background:yellow;
+    width: 140px;
+    height: 30px; 
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-6{
+    background:white;
+    height: 30px;
+    width: 50px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-7{
+    background: red;
+    height: 30px;
+    width: 80px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-8{
+    background: yellow;
+    height: 30px;
+    width: 60px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-9{
+    width: 60px;
+    height: 30px;
+    background:white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-10{
+    width: 90px;
+    height: 30px;
+    background:yellow; 
+    margin-top: 0;
+}
+.col-11{
+    width: 70px;
+    height: 30px;
+    background: black;
+}
+.col-12{
+    background-color: royalblue;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-13{
+    background:yellow;
+    width: 140px;
+    height: 30px; 
+    margin-top: 0;
+}
+.col-14{
+    background:white;
+    height: 30px;
+    width: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-15{
+    background: red;
+    height: 30px;
+    width: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-16{
+    background: yellow;
+    height: 30px;
+    width: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-17{
+    width: 60px;
+    height: 30px;
+    background:white;
+    margin-top: 0;
+}
+.col-18{
+    width: 90px;
+    height: 30px;
+    background:yellow; 
+}
+.col-19{
+    width: 70px;
+    height: 30px;
+    background: black;
+}
+.col-20{
+    background-color: royalblue;
+    height: 30px;
+    width: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-21{
+    background:rgb(231, 198, 12);
+    width: 140px;
+    height: 30px; 
+}
+.col-22{
+    background:white;
+    height: 30px;
+    width: 50px;
+    margin-bottom:30px;
+}
+.col-23{
+    background: red;
+    height: 30px;
+    width: 80px;
+    margin-bottom:0;
+    padding-top: 30px;
+}
+.col-24{
+    background: yellow;
+    height: 30px;
+    width: 60px;
+    margin-bottom:0;
+    padding-top: 30px;
+}
+.col-25{
+    width: 60px;
+    height: 100px;
+    background:yellow;
+}
+.col-26{
+    width: 90px;
+    height: 100px;
+    background:white; 
+}
+.col-27{
+    width: 70px;
+    height: 30px;
+    background: black;
+}
+.col-28{
+    background-color: royalblue;
+    height: 100px;
+    width: 200px;
+    margin-top: 0;
+}
+.col-29{
+    background:yellow;
+    width: 220px;
+    height: 100px; 
+}
+
+.col-30{
+    background: red;
+    height: 100px;
+    width: 80px;
+    margin-top: 0;
+}
+.col-31{
+    background: yellow;
+    height: 100px;
+    width: 60px;
+    margin-top: 0;
+}
+.col-32{
+    background: yellow;
+    height: 30px;
+    width: 280px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-33{
+    background: yellow;
+    height: 30px;
+    width: 83px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-34{
+    background: yellow;
+    height: 30px;
+    width: 83px;
+}
+.col-35{
+    background: black;
+    height: 30px;
+    width: 335px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-36{
+    background: white;
+    height: 30px;
+    width: 60px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-37{
+    background: yellow;
+    height: 30px;
+    width: 280px;
+    margin-top: 0;
+}
+.col-38{
+    background: yellow;
+    height: 30px;
+    width: 83px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-39{
+    background: rgb(231, 198, 12);
+    height: 30px;
+    width: 83px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-40{
+    background: black;
+    height: 30px;
+    width: 335px;
+    margin-top: 0;
+}
+.col-41{
+    background: white;
+    height: 30px;
+    width: 60px;
+    margin-top: 0;
+}
+.col-42{
+    background: royalblue;
+    height: 80px;
+    width: 280px;
+}
+.col-43{
+    background: yellow;
+    height: 80px;
+    width: 83px;
+    margin-top: 0;
+}
+.col-44{
+    background: rgb(231, 198, 12);
+    height: 80px;
+    width: 83px;
+    margin-top: 0;
+}
+.col-45{
+    background: yellow;
+    height: 80px;
+    width: 220px;
+}
+.col-46{
+    background: yellow;
+    height: 80px;
+    width: 80px;
+}
+.col-47{
+    background: yellow;
+    height: 80px;
+    width: 70px;
+}
+.col-48{
+    background: black;
+    height: 80px;
+    width: 280px;
+}
+.col-49{
+    background: yellow;
+    height: 80px;
+    width: 83px;
+}
+.col-50{
+    background: rgb(231, 198, 12);
+    height: 80px;
+    width: 83px;
+}
+.col-51{
+    background: red;
+    height: 80px;
+    width: 220px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-52{
+    background: yellow;
+    height: 80px;
+    width: 180px;
+}
+.col-53{
+    background: white;
+    height: 80px;
+    width: 76px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-54{
+    background: red;
+    height: 80px;
+    width: 70px;
+}
+.col-55{
+    background: yellow;
+    height: 80px;
+    width: 70px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-56{
+    background: white;
+    height: 80px;
+    width: 200px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.col-57{
+    background: red;
+    height: 80px;
+    width: 220px;
+    margin-top: 0;
+}
+.col-58{
+    background: royalblue;
+    height: 80px;
+    width: 183px;
+}
+.col-59{
+    background: white;
+    height: 80px;
+    width: 76px;
+    margin-top: 0;
+}
+.col-60{
+    background: rgb(231, 198, 12);
+    height: 80px;
+    width: 70px;
+}
+.col-61{
+    background: yellow;
+    height: 80px;
+    width: 70px;
+    margin-top: 0;
+}
+.col-62{
+    background: white;
+    height: 80px;
+    width: 200px;
+    margin-top: 0;
+}
+.col-63{
+    background: yellow;
+    height: 80px;
+    width: 430px;
+}
+
+
