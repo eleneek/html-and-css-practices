@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0 auto;
+}
+body{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+main{
+    width: 1170px;
+}
+header p{
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 23px;
+    padding-bottom: 21px;
+}
+.imagePlaceHolder{
+    width: 1170px;
+    height: 800px;
+    background:#ECF0F1;
+    margin-bottom: 46px;
+}
+h1{
+    font-family: 'Roboto';
+    font-size: 36px;
+    color: #A1B1BC;
+    letter-spacing: 0.1px;
+    line-height: 36px;
+    margin-bottom: 7.6px;
+}
+p span{
+    font-family: 'Roboto';
+    font-size:14px;
+    color: #A1B1BC;
+    line-height: 36px;
+}
+p span::after{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #EBEBEB;
+    margin-left: 10.5px;
+    margin-right: 8.6px;
+}
+p span:last-child::after{
+    display: none;
+}
+
+section p{
+    margin-bottom: 37px;
+    font-family: 'Roboto';
+    font-size: 13px;
+    line-height: 23.6px;
+    word-spacing: 0.9px;
+    letter-spacing: 0.29px;
+    color: #A1B1BC;
+}
+section h3{
+    color: #A1B1BC;
+    letter-spacing: -0.1px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 24px;
+    margin-left: 61px;
+    margin-top: 41px;
+    word-spacing: 0.6px;
+}
+h3 + p{
+    width: 940px;
+    margin-left: 60px;
+    margin-top: 10px;
+    color: #A1B1BC;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-bottom: 28px;
+    line-height: 26px;
+    word-spacing: -0.7px;
+    letter-spacing: 0.1px;
+}
+.textBorder{
+    border: 1px solid #EBEBEB;
+    border-left: 8px solid #21C2F8;
+    margin-left: 31px;
+    margin-bottom: 30.2px;
+    padding-bottom: 7px;
+}
+section p span{
+    display: block;
+}
+.divBox{
+    display: flex;
+    margin-bottom: 39.7px;
+}
+.divBox span::first-letter{
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 23.3px;
+    margin-top: 5px;
+    color: #21C2F8;
+    background-color: #34495E;
+    padding: 8px 12px 8px 12px;
+    float: left;
+    text-transform: uppercase;
+    margin-right: 4px;
+    margin-left: 1px;
+}
+.divBox span{
+    font-family: 'Roboto';
+    color: #A1B1BC;
+    line-height: 23px;
+    font-size: 14px;
+    word-spacing: 2.2px;
+    letter-spacing: -0.1px;
+}
+span +span{
+    color: #A1B1BC;
+    font-family: 'Roboto';
+    font-size:14px;
+    line-height: 23px;
+}
+#lastHeader{
+    color: #34495E;
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+#lastP{
+    color:#A1B1BC;
+    font-family: 'Roboto';
+    font-size: 14px;
+    letter-spacing: -0.1px;
+    word-spacing: 1px;
+    line-height: 23px;
+}
