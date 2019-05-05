@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+section{
+    margin: 50px;
+    display: grid; 
+    grid-gap: 20px;
+    grid-template-areas: "header-1 header-1 header-2 header-2 header-3 header-3 header-4 header-4"
+                         "col-1 col-2 col-3 col-4 col-5 col-6 col-7 col-8"  
+                         "col-9 col-9 col-9 col-9 col-9 col-9 col-10 col-10"
+                         "col-11 col-11 col-12 col-12 col-12 col-12 col-12 col-12"
+                         "footer-1 footer-1 footer-1 footer-1 footer-2 footer-2 footer-2 footer-2";
+    grid-template-rows: 220px 100px 221px 220px 218px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+section  div {
+    background-color: #E1E1E1;
+}
+.header-1 {
+    grid-area: header-1;
+}
+.header-2 {
+    grid-area: header-2;
+}
+.header-3 {
+    grid-area: header-3;
+}
+.header-4 {
+    grid-area: header-4;
+}
+.col-1 {
+    grid-area: col-1;
+}
+.col-2 {
+    grid-area: col-2;
+}
+.col-3 {
+    grid-area: col-3;
+}
+.col-4 {
+    grid-area: col-4;
+}
+.col-5 {
+    grid-area: col-5;
+}
+.col-6 {
+    grid-area: col-6;
+}
+.col-7 {
+    grid-area: col-7;
+}
+.col-8 {
+    grid-area: col-8;
+}
+.col-9 {
+    grid-area: col-9;
+}
+.col-10 {
+    grid-area: col-10;
+}
+.col-11 {
+    grid-area: col-11;
+}
+.col-12 {
+    grid-area: col-12;
+}
+.footer-1 {
+    grid-area: footer-1;
+}
+.footer-2 {
+    grid-area: footer-2;
+}
