@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+section{
+    background: black;
+    width: 600px;
+    margin: 50px auto 0;
+    display: grid;
+    grid-template-columns: 155px 106px 237px 73px;
+    grid-template-rows: 238px 134px 125px 71px;
+    grid-gap: 10px;
+    grid-template-areas: 'col-1 col-1 col-2 col-2'
+                          'col-3 col-3 col-4 col-4'
+                          'col-5 col-6 col-7 col-8'
+                          'col-5 col-6 col-9 col-8';
+}
+
+.col-1{
+    grid-area: col-1;
+    background: red;
+}
+.col-2{
+    grid-area: col-2;
+    background: beige;
+}
+.col-3{
+    grid-area: col-3;
+    background: beige;
+}
+.col-4{
+    grid-area: col-4;
+    background: beige;
+}
+.col-5{
+    grid-area: col-5;
+    background: yellow;
+}
+.col-6{
+    grid-area: col-6;
+    background: beige;
+}
+.col-7{
+    grid-area: col-7;
+    background: blue;
+}
+.col-8{
+    grid-area: col-8;
+    background: beige;
+}
+.col-9{
+    grid-area: col-9;
+    background: beige;
+}
+
+
+
+
+
