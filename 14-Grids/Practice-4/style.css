@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+}
+section{
+    margin: 50px;
+    display: grid; 
+    grid-gap: 20px;
+    width: 600px;
+    height: 600px;
+    grid-template-areas: 'header1 header2 header3 header4 header5 header6 header7 header8'
+                          'header1 col-1 col-2  col-3 header5 header6 header7 header8 '
+                          'header1 col-1 col-2 col-3 col-4 header6 header7 header8'
+                          'col-5 col-6  col-2 col-3 col-7 col-7 header7 header8'
+                          'middle-1 middle-1 middle-1 middle-2 middle-3 middle-4 middle-4 middle-5'
+                          'middle-6 middle-6 middle-6 middle-2 middle-7 middle-8 middle-9 middle-10'
+                          'middle-11 middle-11 middle-11 middle-2 middle-7 middle-12 middle-13 middle-13'
+                          'footer-1 footer-2 footer-3 footer-4 footer-4 middle-12 footer-5 footer-5'
+                          'footer-1 footer-6 footer-3 footer-4 footer-4 footer-7 footer-7 footer-7';
+    grid-template-columns: 50px 100px 60px repeat(3,90px) 30px 60px 30px; 
+    grid-template-rows: 50px 70px 40px 90px 30px 40px 70px 100px 30px 50px 80px;
+} 
+
+.header1{
+    grid-area: header1;
+    background: #FFF;
+}
+.header2{
+    grid-area: header2;
+    background: yellow;
+}
+.header3{
+    grid-area: header3;
+    background: yellow;
+}
+.header4{
+    grid-area: header4;
+    background: white;
+}
+.header5{
+    grid-area: header5;
+    background: yellow;
+}
+.header6{
+    grid-area: header6;
+    background: white;
+}
+.header7{
+    grid-area: header7;
+    background: red;
+}
+.header8{
+    grid-area: header8;
+    background: yellow;
+}
+.col-1{
+    grid-area: col-1;
+    background: yellow;
+}
+.col-2{
+    grid-area: col-2;
+    background: black;
+}
+.col-3{
+    grid-area: col-3;
+    background: royalblue;
+}
+.col-4{
+    grid-area: col-4;
+    background: orange;
+}
+.col-5{
+    grid-area: col-5;
+    background: yellow;
+}
+.col-6{
+    grid-area: col-6;
+    background: white;
+}
+.col-7{
+    grid-area: col-7;
+    background: yellow;
+}
+.middle-1{
+    grid-area: middle-1;
+    background: yellow;
+}
+.middle-2{
+    grid-area: middle-2;
+    background: yellow;
+}
+.middle-3{
+    grid-area: middle-3;
+    background: yellow;
+}
+.middle-4{
+    grid-area: middle-4;
+    background: black;
+}
+.middle-5{
+    grid-area: middle-5;
+    background: white;
+}
+.middle-6{
+    grid-area: middle-6;
+    background: royalblue;
+}
+.middle-7{
+    grid-area: middle-7;
+    background: orange;
+}
+.middle-8{
+    grid-area: middle-8;
+    background: yellow;
+}
+.middle-9{
+    grid-area: middle-9;
+    background: yellow;
+}
+.middle-10{
+    grid-area: middle-10;
+    background: yellow;
+}
+.middle-11{
+    grid-area: middle-11;
+    background: black;
+}
+.middle-12{
+    grid-area: middle-12;
+    background: red;
+}
+.middle-13{
+    grid-area: middle-13;
+    background: orange;
+}
+.footer-1{
+    grid-area: footer-1;
+    background: white;
+}
+.footer-2{
+    grid-area: footer-2;
+    background: red;
+}
+.footer-3{
+    grid-area: footer-3;
+    background: yellow;
+}
+.footer-4{
+    grid-area: footer-4;
+    background: white;
+}
+.footer-5{
+    grid-area: footer-5;
+    background: royalblue;
+}
+.footer-6{
+    grid-area: footer-6;
+    background: orange;
+}
+.footer-7{
+    grid-area: footer-7;
+    background: yellow;
+}
